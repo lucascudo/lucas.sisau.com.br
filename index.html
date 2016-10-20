@@ -10,11 +10,21 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 	<title>Lucas Teixeira Rocha</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     
     <style>
+    	body {
+    		font-family: 'Open Sans', sans-serif;
+    	}
+    	.main-wrapper {
+    		max-width: 700px;
+			position: relative;
+			margin: 0 auto;
+			padding: 20px 40px
+    	}
     	#titulo, #container {
 			z-index: 0;
     	}
@@ -27,7 +37,7 @@
 			width: 96px;
 			border-radius: 50%;
 			position: absolute;
-			right: 0px;
+			right: 20px;
 			top: 0px;
 			z-index: 1;
     	}
@@ -44,7 +54,8 @@
     		text-align: center;
     	}
     	#description {
-    		text-align: justify;
+    		text-align: left;
+    		font-weight: normal;
     	}
     	#profiles {
     		font-size: 3em;
@@ -58,7 +69,7 @@
     </style>
 </head>
 <body>
-	<div>
+	<div class="main-wrapper">
 		<nav id="titulo" class="navbar navbar-inverse">
 		    <div class="navbar-header">
 		        <font class="navbar-brand">Lucas Teixeira Rocha</font>
@@ -69,7 +80,14 @@
 		
 		<div id="container">
 			<blockquote id="description">
-				Desenvolvedor Full Stack, pós-graduado em Gestão de Segurança da Informação, graduado em Redes de Computadores, MCTS (Microsot Certified Technology Specialist). Sócio-fundador da <a target="_blank" href="http://www.sisau.com.br">SISAU(Soluções Integradas em Software e Automação)</a> e co-fundador do <a target="_blank" href="http://www.raulhc.cc">Raul Hacker Club</a>.
+				<ul>
+					<li>Desenvolvedor Full Stack</li>
+					<li>Pós-graduado em Gestão de Segurança da Informação</li>
+					<li>Graduado em Redes de Computadores</li>
+					<li>Microsot Certified Technology Specialist (MCTS)</li>
+					<li>Sócio-fundador da <a target="_blank" href="http://www.sisau.com.br">SISAU</a> (Soluções Integradas em Software e Automação)</li>
+					<li>Co-fundador do <a target="_blank" href="http://www.raulhc.cc">Raul Hacker Club</a></li>
+				</ul>
 			</blockquote>
 			
 			<div id="profiles">
